@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant browser
     participant server
@@ -10,3 +11,4 @@ sequenceDiagram
     deactivate server
 
     Note right of server: The server creates a properly formatted `note` object with properties `content` and `date` and stores the new note in a `notes` array on the server
+```
